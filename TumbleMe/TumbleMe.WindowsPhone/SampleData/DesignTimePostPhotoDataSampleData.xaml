@@ -1,0 +1,18 @@
+﻿<DesignData:DesignTimePostPhotoData xmlns:DesignData="using:TumbleMe.DesignData"
+	CanShare="True" 
+	ShareInProgress="False" 
+	>
+	
+	<DesignData:DesignTimePostPhotoData.FilesToPost>
+		<DesignData:FakePhotoData Caption="I can haz CAT-ion"  Image="http://24.media.tumblr.com/2a2ed471f2517147833230ebc856d6d1/tumblr_n20dcgmKcj1tv3s5qo1_1280.jpg"/>
+		<DesignData:FakePhotoData Caption="Curae donec aenean mauris"/>
+		<DesignData:FakePhotoData Caption="Curabitur aliquam nam maecenas phasellus"/>
+		<DesignData:FakePhotoData Caption="Nullam integer sed consequat vestibulum"/>
+		<DesignData:FakePhotoData Caption="Praesent duis aptent dis"/>
+		<DesignData:FakePhotoData Caption="Quisque nunc est accumsan"/>
+		<DesignData:FakePhotoData Caption="Vivamus convallis etiam bibendum amet"/>
+		<DesignData:FakePhotoData Caption="Dignissim elementum hac adipiscing"/>
+		<DesignData:FakePhotoData Caption="Parturient fusce vestibulum vestibulum adipiscing"/>
+		<DesignData:FakePhotoData Caption="Lorem auctor morbi leo nulla"/>
+	</DesignData:DesignTimePostPhotoData.FilesToPost>
+</DesignData:DesignTimePostPhotoData>
