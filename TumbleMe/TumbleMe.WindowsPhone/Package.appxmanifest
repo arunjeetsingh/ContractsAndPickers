@@ -34,6 +34,9 @@
             <DataFormat>StorageItems</DataFormat>
           </ShareTarget>
         </Extension>
+        <Extension Category="windows.protocol">
+          <Protocol Name="com.aruntalkstech.tumbleme" />
+        </Extension>
       </Extensions>
     </Application>
   </Applications>

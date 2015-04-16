@@ -180,6 +180,20 @@ namespace TumbleMe
             // Ensure the current window is active
             Window.Current.Activate();
 
+			if (e.Kind == ActivationKind.Protocol)
+			{
+				if (Tumblr.SignedIn)
+				{
+					rootFrame.Navigate(typeof(Posts));
+				}
+				else
+				{
+					rootFrame.Navigate(typeof(MainPage));
+				}
+
+				return;
+			}
+
             #region authentication
 #if WINDOWS_PHONE_APP
             var webAuthContinuePage = rootFrame.Content as IWebAuthenticationContinuable;
