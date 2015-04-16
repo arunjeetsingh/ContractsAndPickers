@@ -106,5 +106,10 @@ namespace TumbleMe
         {
             this.Frame.Navigate(typeof(Posts));
         }
-    }
+
+		private void About_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(AboutPage));
+		}
+	}
 }

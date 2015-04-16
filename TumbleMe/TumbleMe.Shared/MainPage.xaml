@@ -20,9 +20,11 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Button x:Name="Browse" HorizontalAlignment="Stretch" Content="Browse" FontFamily="Segoe UI" Background="#00ACEE" BorderThickness="0" Margin="25,0,25,0" Click="Browse_Click" />
             <Button x:Name="SignIn" HorizontalAlignment="Stretch" Grid.Column="1" Content="Sign In" FontFamily="Segoe UI" Background="#00ACEE" BorderThickness="0" Margin="25,0,25,0" Click="SignIn_Click" />
+			<Button x:Name="About" HorizontalAlignment="Stretch" Grid.Column="2" Content="About" FontFamily="Segoe UI" Background="#00ACEE" BorderThickness="0" Margin="25,0,25,0" Click="About_Click"/>
         </Grid>
 
         <Grid x:Name="WaitCursor" Grid.RowSpan="2" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Opacity="0.75" Visibility="Collapsed">
